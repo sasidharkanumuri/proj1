@@ -1,0 +1,116 @@
+********************************************************************************
+product = WebSphere Application Server 8.5.5.4 (wlp-1.0.7.cl50420141211-1039)
+wlp.install.dir = D:/Softwares/eclipse/configuration/org.eclipse.osgi/1023/0/.cp/resources/server_runtime/
+server.config.dir = C:/Users/ashok/ASELAB8/.metadata/.plugins/com.ibm.etools.wdt.server.core/tmp0/usr/servers/defaultServer0/
+java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+java.version = 1.8.0_60
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_60-b27)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 6636@DESKTOP-0H7OOF5
+********************************************************************************
+[10/27/15 11:00:35:404 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer0 has been launched.
+[10/27/15 11:00:36:577 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.463 seconds
+[10/27/15 11:00:36:605 CDT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/27/15 11:00:37:873 CDT] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[10/27/15 11:00:38:009 CDT] 0000001a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 10760.
+[10/27/15 11:00:38:478 CDT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application proxy.
+[10/27/15 11:00:38:478 CDT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:00:39:159 CDT] 00000022 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Ajax Proxy for IBM WebSphere.
+[10/27/15 11:00:39:162 CDT] 00000022 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Ajax Proxy for IBM WebSphere has been bound to default_host.
+[10/27/15 11:00:39:164 CDT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/proxy/
+[10/27/15 11:00:39:168 CDT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application proxy started in 0.691 seconds.
+[10/27/15 11:00:39:396 CDT] 00000021 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:00:39:396 CDT] 00000021 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:00:39:397 CDT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:00:39:398 CDT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application trademarketing started in 0.921 seconds.
+[10/27/15 11:00:39:463 CDT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [servlet-3.0, jsp-2.2, json-1.0, localConnector-1.0, jaxrs-1.1].
+[10/27/15 11:00:39:463 CDT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.889 seconds.
+[10/27/15 11:00:39:463 CDT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer0 is ready to run a smarter planet.
+[10/27/15 11:02:53:952 CDT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:02:53:988 CDT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:02:54:003 CDT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:02:55:127 CDT] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:02:55:127 CDT] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:02:55:128 CDT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:02:55:130 CDT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 1.129 seconds.
+[10/27/15 11:03:04:873 CDT] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:04:895 CDT] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:03:04:913 CDT] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:03:05:242 CDT] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:03:05:242 CDT] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:03:05:242 CDT] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:05:245 CDT] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 0.332 seconds.
+[10/27/15 11:03:15:337 CDT] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:15:348 CDT] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:03:15:361 CDT] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:03:15:926 CDT] 0000002d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:03:15:926 CDT] 0000002d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:03:15:927 CDT] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:15:927 CDT] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 0.566 seconds.
+[10/27/15 11:03:25:790 CDT] 00000018 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:25:794 CDT] 00000018 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:03:25:799 CDT] 00000018 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:03:26:321 CDT] 00000018 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:03:26:322 CDT] 00000018 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:03:26:322 CDT] 00000018 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:26:323 CDT] 00000018 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 0.524 seconds.
+[10/27/15 11:03:40:062 CDT] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:40:076 CDT] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:03:40:092 CDT] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:03:40:372 CDT] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:03:40:372 CDT] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:03:40:373 CDT] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:03:40:373 CDT] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 0.281 seconds.
+[10/27/15 11:07:38:752 CDT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:07:38:764 CDT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application trademarketing has stopped successfully.
+[10/27/15 11:07:38:775 CDT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application trademarketing.
+[10/27/15 11:07:38:990 CDT] 0000003c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: trademarketing.
+[10/27/15 11:07:38:990 CDT] 0000003c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module trademarketing has been bound to default_host.
+[10/27/15 11:07:38:990 CDT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://10.99.1.174:10760/trademarketing/
+[10/27/15 11:07:38:991 CDT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application trademarketing updated in 0.216 seconds.
+[10/27/15 11:07:40:323 CDT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/27/15 11:07:40:330 CDT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/trademarketing
+[10/27/15 11:07:40:346 CDT] 00000021 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/27/15 11:08:09:500 CDT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [trademarketing] [/trademarketing] [InsertStock]: Initialization successful.
+[10/27/15 11:08:09:621 CDT] 00000027 SystemOut                                                    O { "name" : "IBM" , "quantity" : "12" , "price" : "89"}
+[10/27/15 11:08:09:820 CDT] 00000027 org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[sidhar77@ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/27/15 11:08:09:889 CDT] 00000027 org.mongodb.driver.cluster                                   I No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=sidhar77@ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[10/27/15 11:08:10:018 CDT] 0000003e org.mongodb.driver.cluster                                   I Exception in monitor thread while connecting to server sidhar77@ds035004.mongolab.com:35004
+com.mongodb.MongoSocketException: sidhar77@ds035004.mongolab.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: sidhar77@ds035004.mongolab.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 more
+
+[10/27/15 11:08:39:890 CDT] 00000027 SystemOut                                                    O com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches PrimaryServerSelector. Client view of cluster state is {type=UNKNOWN, servers=[{address=sidhar77@ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: sidhar77@ds035004.mongolab.com}, caused by {java.net.UnknownHostException: sidhar77@ds035004.mongolab.com}}]
+[10/27/15 11:08:40:778 CDT] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [trademarketing] [/trademarketing] [DisplayStock]: Initialization successful.
+[10/27/15 11:08:40:781 CDT] 0000002a org.mongodb.driver.cluster                                   I Cluster created with settings {hosts=[sidhar77@ds035004.mongolab.com:35004], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[10/27/15 11:08:40:785 CDT] 00000042 org.mongodb.driver.cluster                                   I Exception in monitor thread while connecting to server sidhar77@ds035004.mongolab.com:35004
+com.mongodb.MongoSocketException: sidhar77@ds035004.mongolab.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: sidhar77@ds035004.mongolab.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 more
+
+[10/27/15 11:08:40:819 CDT] 0000002a org.mongodb.driver.cluster                                   I No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=sidhar77@ds035004.mongolab.com:35004, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: sidhar77@ds035004.mongolab.com}, caused by {java.net.UnknownHostException: sidhar77@ds035004.mongolab.com}}]}. Waiting for 30000 ms before timing out
