@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<archive id="defaultServer0">
-  <dir sourceOnDisk="C:\Users\ashok\ASELAB8\trademarketing\WebContent" targetInArchive="/"/>
-  <dir sourceOnDisk="C:\Users\ashok\ASELAB8\trademarketing\build\classes" targetInArchive="/WEB-INF/classes"/>
-</archive>

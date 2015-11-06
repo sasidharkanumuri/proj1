@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TradeMonitoing">
+        <property name="context-root" value="TradeMonitoing"/>
+        <property name="java-output-path" value="/TradeMonitoing/WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

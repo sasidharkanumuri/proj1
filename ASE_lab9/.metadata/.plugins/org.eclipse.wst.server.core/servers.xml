@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configMode="1" hostname="localhost" id="Web Preview Server at localhost" name="Web Preview Server at localhost" runtime-id="Web Preview Server Runtime" server-type="com.ibm.etools.wdt.server.serverType" server-type-id="com.ibm.etools.wdt.server.serverType" serverName="defaultServer0" start-timeout="30" stop-timeout="15" timestamp="1">
+    <list key="modules" value0="TradeMonitoing123::org.eclipse.jst.jee.server:TradeMonitoing123::jst.web::3.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="Cloud" id="IBM Bluemix" name="IBM Bluemix" org.cloudfoundry.ide.eclipse.org="vk6fb@mail.umkc.edu" org.cloudfoundry.ide.eclipse.serverId="vk6fb@mail.umkc.edu_vk6fb@mail.umkc.edu_dev@https://api.ng.bluemix.net" org.cloudfoundry.ide.eclipse.space="dev" org.cloudfoundry.ide.eclipse.url="https://api.ng.bluemix.net" org.cloudfoundry.ide.eclipse.username="vk6fb@mail.umkc.edu" runtime-id="IBM Bluemix Runtime" server-type="com.ibm.cftools.server" server-type-id="com.ibm.cftools.server" start-timeout="600" stop-timeout="60" timestamp="1">
+    <list key="modules" value0="TradeMonitoing123::org.eclipse.jst.jee.server:TradeMonitoing123::jst.web::3.0"/>
+  </server>
+</servers>
