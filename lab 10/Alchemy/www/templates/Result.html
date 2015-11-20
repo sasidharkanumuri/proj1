@@ -1,0 +1,32 @@
+<ion-view ng-controller="pageCtrl" title="Sentment Analysis">
+    <ion-content padding="true" class="has-header">
+	
+	<div>
+	<img src="http://thumbs.dreamstime.com/z/trading-concept-illustration-flat-design-monitoring-trade-gadget-vector-57466814.jpg" width="1400" height="100" />
+	
+	</div>
+        <form class="list">
+            <div class="list">
+          <label class="item item-input item-select">
+           
+              Select The Key
+            
+            <select ng-model="SearchKey">
+              <option selected>GetTextLanguage</option>
+              <option>URLGetLanguage</option>
+            </select>
+          </label>
+        </div>
+            <label class="item item-input">
+                <span class="input-label">Enter URL</span>
+                <input type="text" placeholder="Search URL" ng-model="SearchURL">
+            </label>
+        </form>
+        <button class="button button-dark button-block button-small" ng-click="getResult(SearchKey, SearchURL)">Submit</button>
+ <div>
+          
+                <p> {{ result.Textlanguage}} </p>    
+            <p> {{ result.language}} </p>
+        </div>
+    </ion-content>
+</ion-view>
