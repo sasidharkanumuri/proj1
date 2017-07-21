@@ -2,11 +2,11 @@ version: 0.1
 phases: 
  install:
   commands:
+   - cd react-boilerplate
    - npm run setup
    - npm start
    - aws cloudformation package --template-file Template.yaml 
-                                --output-template-file NewSamTemplate.yaml
-                                --s3-bucket sample-ci-cd-pipeline
+                                --output-template-file NewSamTemplate.yaml --s3-bucket sample-ci-cd-pipeline
 
 artifacts:
  type: zip
