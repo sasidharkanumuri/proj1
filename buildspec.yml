@@ -7,7 +7,7 @@ phases:
    - npm run clean
    - aws cloudformation package --template-file Template.yaml 
                                 --output-template-file NewSamTemplate.yaml
-								--s3-bucket sample-ci-cd-pipeline
+                                --s3-bucket sample-ci-cd-pipeline
 
 artifacts:
  type: zip
