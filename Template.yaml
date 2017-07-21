@@ -2,14 +2,14 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Nodejs app
 Resources:
- TimeFunction:
+ NodeFunction:
   Type: AWS::Serverless::Function
   Properties:
    Handler: index.handler
    Runtime: nodejs4.3
    CodeUri: ./
    Events:
- MyTimeApi:
+ MyNodeApi:
   Type: Api
   Properties:
    Path: /nodeResource
