@@ -3,7 +3,7 @@ phases:
  install:
   commands:
    - npm run setup
-   - npm start
+   - npm run build
    - aws cloudformation package --template-file Template.yaml 
                                 --output-template-file NewSamTemplate.yaml --s3-bucket sample-ci-cd-pipeline
 
