@@ -2,7 +2,6 @@ version: 0.1
 phases: 
  install:
   commands:
-   - cd react-boilerplate
    - npm run setup
    - npm start
    - aws cloudformation package --template-file Template.yaml 
