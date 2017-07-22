@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="com.ibm.etools.wdt.server.launchConfigurationType">
-<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79"/>
-<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:/Users/user/ASE_lab9/.metadata/.plugins/com.ibm.etools.wdt.server.core/tmp0"/>
-<stringAttribute key="server-id" value="Web Preview Server at localhost"/>
-</launchConfiguration>
