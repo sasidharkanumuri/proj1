@@ -12,7 +12,7 @@ Resources:
  MyNodeApi:
   Type: Api
   Properties:
-   Path: /nodeResource
+   Path: /TimeResource
    Method: GET
 
 
