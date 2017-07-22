@@ -9,10 +9,10 @@ Resources:
    Runtime: nodejs4.3
    CodeUri: ./
    Events:
- MyNodeApi:
-  Type: Api
-  Properties:
-   Path: /TimeResource
-   Method: GET
+    MyNodeApi:
+     Type: Api
+     Properties:
+      Path: /TimeResource
+      Method: GET
 
 
